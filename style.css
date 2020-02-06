@@ -1,0 +1,76 @@
+
+
+@media (min-width: 992px) {
+    .about{
+        margin-top: 4%;
+    }
+    .container{
+        padding-top: 7%;
+    }
+    .image1 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 2px;
+    }
+    .image2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+    }
+    .image3{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 18px;
+    }
+      
+    .overlay {
+        position: absolute; 
+        bottom: 0; 
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .container:hover .overlay {
+        opacity: 2;
+    }
+    .jumbotron1{
+        margin-top: 7%;
+        background-image: url(img/backgroun.jpg);
+        background-size: cover;
+        height: 440px;
+        text-align: center;
+        color: beige;
+    }
+    .jumbotron1 .display-4 span{
+        font-weight: 500;
+    }
+    .zoom {
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+      
+    .zoom:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5); 
+    }
+    #kamar1 {
+        margin: 10px;
+    }
+    #kamar3 {
+        width: 1000px;
+        height: 640px;
+       margin-left: 40px;
+    }
+    .container h1 {
+        text-align: center;
+    }
+}
