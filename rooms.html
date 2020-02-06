@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        .visible{
+            display: inline;
+        }
+    #gambar{
+        height: 220px;
+    }
+    #lu{
+        float: left;
+    }
+    #li{
+        float: right;;
+    }
+    li{
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#"><i class="fa fa-phone" style="color: orangered;"></i>(021) 123456</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-envelope" style="color: orangered;"></i> infohotel@gmail.com</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fab fa-facebook-f" style="color: orangered;"></i> <i class="fab fa-twitter" style="color: orangered;"></i> 
+                        <i class="fab fa-tripadvisor" style="color: orangered;"></i> <i class="fab fa-instagram" style="color: orangered;"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link href="#""><button class="btn btn-warning">BOOKING NOW</button></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class='fas fa-flag-usa' style="color: orangered;"></i> ENG
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fa fa-flag" style="color: orangered;"></i> IND</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-flag" style="color: orangered;"></i> USA</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-flag" style="color: orangered;"></i> UEA</a>
+                        </div>
+                    </li>
+                  </ul>
+            </div>
+
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-light mb-3">
+                    <a class="navbar-brand" href="#">Sona.</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li id="search">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" id="search" placeholder="Search" />
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <!-- <ul class="nav">
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>(12) 345 67890</p>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li id="lu">info.colorlib@gmail.com</li>
+                        <li id="li">a</li>
+                        <li id="li">a</li>
+                        <li id="li">a</li>
+                        <li id="li">a</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </ul><hr> -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-white rounded">
+        <div class="container-sm">
+            <a class="navbar-brand" href="#">Sona.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Rooms</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                    <a href="">News</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </form>
+            </div>
+        </div>
+      </nav> -->
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-sm-12 text-center"><br><br>
+                <h1 class="display3">Our Rooms</h1>
+                <p class="breadcrumb-item"><b>Home</b> > Rooms</p><br><br><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img1" src="images.jpeg" class="card-img-top img-fluid" id="gambar" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><h4>Premium King Room</h4></p>
+                    <br>
+                    <p>159$/Night</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>Size:</p>
+                                <p>Capacity:</p>
+                                <p>Bed:</p>
+                                <p>Service:</p>
+                            </div>
+                            <div class="col">
+                                <p>30 ft</p>
+                                <p>Max Person 3</p>
+                                <p>King Beds</p>
+                                <p>Wifi,Television, Bathrooms,...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img2" src="images (1).jpeg" class="card-img-top img-fluid" id="gambar" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><h4>Deluxe Room</h4></p>
+                    <br>
+                    <p>159$/Night</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>Size:</p>
+                                <p>Capacity:</p>
+                                <p>Bed:</p>
+                                <p>Service:</p>
+                            </div>
+                            <div class="col">
+                                <p>30 ft</p>
+                                <p>Max Person 3</p>
+                                <p>King Beds</p>
+                                <p>Wifi,Television, Bathrooms,...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img3" src="images (2).jpeg" class="card-img-top img-fluid" id="gambar" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><h4>Double Room</h4></p>
+                    <br>
+                    <p>159$/Night</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>Size:</p>
+                                <p>Capacity:</p>
+                                <p>Bed:</p>
+                                <p>Service:</p>
+                            </div>
+                            <div class="col">
+                                <p>30 ft</p>
+                                <p>Max Person 3</p>
+                                <p>King Beds</p>
+                                <p>Wifi,Television, Bathrooms,...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                    </div>
+                    
+                </div>
+            </div>  
+        </div><br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img4" src="images (6).jpeg" class="card-img-top img-fluid" id="gambar" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><h4>Luxury Room</h4></p>
+                    <br>
+                    <p>159$/Night</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>Size:</p>
+                                <p>Capacity:</p>
+                                <p>Bed:</p>
+                                <p>Service:</p>
+                            </div>
+                            <div class="col">
+                                <p>30 ft</p>
+                                <p>Max Person 3</p>
+                                <p>King Beds</p>
+                                <p>Wifi,Television, Bathrooms,...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img5" src="images (7).jpeg" class="card-img-top img-fluid" id="gambar" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><h4>Room With View</h4></p>
+                    <br>
+                    <p>159$/Night</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>Size:</p>
+                                <p>Capacity:</p>
+                                <p>Bed:</p>
+                                <p>Service:</p>
+                            </div>
+                            <div class="col">
+                                <p>30 ft</p>
+                                <p>Max Person 3</p>
+                                <p>King Beds</p>
+                                <p>Wifi,Television, Bathrooms,...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img class="img6" src="images (5).jpeg" class="card-img-top img-fluid" id="gambar" alt="...">
+                    <div class="card-body">
+                    <p class="card-text"><h4>Small View</h4></p>
+                    <br>
+                    <p>159$/Night</p>
+                        <div class="row">
+                            <div class="col">
+                                <p>Size:</p>
+                                <p>Capacity:</p>
+                                <p>Bed:</p>
+                                <p>Service:</p>
+                            </div>
+                            <div class="col">
+                                <p>30 ft</p>
+                                <p>Max Person 3</p>
+                                <p>King Beds</p>
+                                <p>Wifi,Television, Bathrooms,...</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary">MORE DETAILS</a>
+                    </div>
+                    
+                </div><br><br>
+            </div>  
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-dark text-white">
+			<div class="col-sm-4">
+				<h2>Sona</h2>
+				<p>we isnpire and reach millions of travelers across 90 local website</p>
+				<a href="#" class="fa fa-facebook" style="font-size:24px;color:white"></a>
+				<i class="fa fa-instagram" style="font-size:24px;color:white"></i>
+				<i class="fa fa-youtube-play" style="font-size:24px;color:white"></i>
+				<i class="fa fa-tripadvisor" style="font-size:24px;color: white"></i>
+			</div>
+			<div class="col-sm-4">
+				<h5>Contact us</h5>
+				<p>(021) 87657493</p>
+				<p>theprojek@gmail.com</p>
+			</div>
+			<div class="col-sm-4">
+				<h5>New Latest</h5>
+				<p>get the latest update and offers.</p>
+				 <input type="email" name="email" placeholder="Email">
+				 <button style="font-size:10px" class="btn btn-warning"><i class="fa fa-send-o"></i></button>
+			</div>
+		</div>
+    </div>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <sc ript src="js/popper.min.js"></sc ript>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+</html>

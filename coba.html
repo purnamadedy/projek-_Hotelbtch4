@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        img {
+    height: 100px;
+      /* display:none; */
+  
+  }
+  
+  .visible{
+    display: inline
+  }
+    </style>
+</head>
+<body>
+    
+
+
+
+
+
+    <button type="button">Click Me!</button>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+    //Function that centers in viewport
+    jQuery.fn.center = function() {
+    this.css("position", "absolute");
+    this.css("top", ($(window).height() - this.height()) / 2 + $(window).scrollTop() + "px");
+    this.css("left", ($(window).width() - this.width()) / 2 + $(window).scrollLeft() + "px");
+    return this;
+    }
+
+    //Center
+    //$("img").center()
+
+    //Zoom in / out
+    $("button").on("click", function() {
+    $("img").addClass("visible").animate({'zoom': 1.2  }, 600).delay(100);
+    $("img").addClass("visible").animate({ 'zoom': 1}, 600);
+    });
+    
+    
+    </script>
+</body>
+</html>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<img src='http://placeholder.pics/svg/300'>
+
+
